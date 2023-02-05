@@ -1,0 +1,143 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local window = kavoUi.CreateLib("CPS TEAM / HUB","Ocean")
+
+---Tabs
+
+local Tab1 = window:NewTab("Main ⛑")
+
+local Tab1Section = Tab1:NewSection("Main ⛑")
+
+local Tab2 = window:NewTab("Sup ⛑")
+
+local Tab2Section = Tab2:NewSection("Sup is word ⛑")
+
+local Tab3 = window:NewTab("Credits ⛑")
+
+local Tab3Section = Tab3:NewSection("Made By mr pop cat minecraft - roblox 🦁")
+
+local Tab3Section = Tab3:NewSection("mr pop cat#5496 (discord user name)")
+
+local Tab4 = window:NewTab("update")
+
+local Tab4Section = Tab4:NewSection("new hub!")
+
+---Buttons
+
+Tab1Section:NewButton("kill gui 🧨"," kill gui works in all gemes you need a item",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mrpopcatfrombupge/scripts/main/Kill%20gui%20v2",true))();
+
+end)
+
+Tab1Section:NewButton("Trick shot sim 🏅"," idk ",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mrpopcatfrombupge/scripts/main/Trickshot_simsexyGUI.lua",true))();
+
+end)
+
+Tab1Section:NewButton("fe scripts hub"," soon",function()
+
+end)
+
+Tab2Section:NewButton("Keyboard ⌨️","Pc Like Keyboard",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+end)
+
+Tab2Section:NewButton("inf yaild ♾️","fe admin cmds",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+end)
+
+Tab2Section:NewButton("fly","give you fly like admin!",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mrpopcatfrombupge/scripts/main/Fly"))()
+
+end)
+
+Tab1Section:NewButton("ice hub ❄","ice hub",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+
+end)
+
+Tab4Section:NewButton("credits ","credits",function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+
+                Title = "Credits";
+
+                Text = "made by Mr pop cat";
+
+                Duration = 3.5;
+
+            })
+
+            end)
+
+Tab4Section:NewButton("team","my team works with me",function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+
+                Title = "team:";
+
+                Text = "(hackar) (mr dark)";
+
+                Duration = 3.5;
+
+            })
+
+            end)
+
+            
+
+Tab1Section:NewButton("evade","evade script auto farm and more",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
+
+end)
+
+ 
+
+Tab1Section:NewButton("bed wars vape v4 ","bed wars vape script",function()  
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+
+local InfiniteJumpEnabled = true
+
+game:GetService("UserInputService").JumpRequest:connect(function()
+
+	if InfiniteJumpEnabled then		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+
+	end
+
+end)
+
+game.StarterGui:SetCore("SendNotification", {
+
+    Title = "Infinite Jumps and Vape cps hub";
+
+    Text = "Mixed by jn hh gaming"; -- what the text says (ofc)
+
+    Duration = 30;
+
+})
+
+wait(1)
+
+game.StarterGui:SetCore("SendNotification", {
+
+    Title = "Enjoy";
+
+    Text = "Don't Forget to Subscribe mr pop cat minecraft - roblox"; -- what the text says (ofc)
+
+    Duration = 30;
+
+})      
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+end)
